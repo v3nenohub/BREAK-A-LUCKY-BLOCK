@@ -10,7 +10,7 @@ local brainrotsFolder = Workspace:WaitForChild("Brainrots")
 local zoneWall = Workspace:WaitForChild("InvisWalls"):WaitForChild("ZoneWall")
 local remoteDamage = ReplicatedStorage:WaitForChild("Remotes"):WaitForChild("DamageBlockEvent")
 
-_G.ValorMinimo = 4000 
+_G.ValorMinimo = 3000 
 _G.AutoFarmAura = true
 
 local CONFIG = {
